@@ -34,6 +34,12 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
+            <a
+              href="#ai-identification"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Try AI Scanner
+            </a>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">

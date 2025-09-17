@@ -4,6 +4,8 @@ import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import WasteIdentification from "@/components/WasteIdentification";
 import Community from "@/components/Community";
+import Education from "@/components/Education";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -13,7 +15,9 @@ const Index = () => {
       <WasteIdentification />
       <Features />
       <HowItWorks />
+      <Education />
       <Community />
+      <Chatbot />
     </div>
   );
 };

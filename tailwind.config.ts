@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +47,17 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Eco-friendly color palette
+        nature: {
+          light: "hsl(var(--nature-light))",
+          medium: "hsl(var(--nature-medium))",
+        },
+        earth: {
+          brown: "hsl(var(--earth-brown))",
+        },
+        sky: {
+          blue: "hsl(var(--sky-blue))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -84,6 +96,15 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "glow": "glow 2s ease-in-out infinite alternate",
+        "pulse-eco": "pulse-eco 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      backgroundImage: {
+        "gradient-eco": "var(--gradient-eco-primary)",
+        "gradient-hero": "var(--gradient-eco-hero)",
+        "gradient-earth": "var(--gradient-earth)",
+        "gradient-nature": "var(--gradient-nature)",
       },
     },
   },

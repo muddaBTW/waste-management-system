@@ -15,11 +15,18 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Eco-friendly variants
+        eco: "bg-gradient-eco text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105",
+        hero: "bg-gradient-hero text-primary-foreground shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 animate-glow",
+        nature: "bg-nature-light text-foreground border border-primary/20 hover:bg-nature-medium hover:shadow-lg transition-all duration-300",
+        earth: "bg-earth-brown text-primary-foreground hover:bg-earth-brown/90 shadow-md hover:shadow-lg transition-all duration-300",
+        glass: "bg-primary/10 backdrop-blur-sm border border-primary/20 text-foreground hover:bg-primary/20 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
+        xl: "h-12 rounded-lg px-12 text-base",
         icon: "h-10 w-10",
       },
     },
